@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/sumaFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.SumaFragment"
+        android:label="suma_fragment"
+        tools:layout="@layout/suma_fragment" />
+    <fragment
+        android:id="@+id/restaFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.resta.RestaFragment"
+        android:label="resta_fragment"
+        tools:layout="@layout/resta_fragment" />
+    <fragment
+        android:id="@+id/multiplicacionFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.multiplicacion.multiplicacionFragment"
+        android:label="multiplicacion_fragment"
+        tools:layout="@layout/multiplicacion_fragment" />
+    <fragment
+        android:id="@+id/divisionFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.division.DivisionFragment"
+        android:label="division_fragment"
+        tools:layout="@layout/division_fragment" />
+    <fragment
+        android:id="@+id/potenciaNFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.potenciaN.PotenciaNFragment"
+        android:label="potencia_n_fragment"
+        tools:layout="@layout/potencia_n_fragment" />
+    <fragment
+        android:id="@+id/factorialFragment"
+        android:name="mx.edu.tesoem.isc.svj.menu.ui.factorial.FactorialFragment"
+        android:label="factorial_fragment"
+        tools:layout="@layout/factorial_fragment" />
+
+</navigation>

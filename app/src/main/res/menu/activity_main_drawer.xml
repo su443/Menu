@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/sumaFragment"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Suma" />
+    </group>
+    <item
+        android:id="@+id/restaFragment"
+        android:icon="@android:drawable/dialog_holo_dark_frame"
+        android:title="Resta" />
+    <item
+        android:id="@+id/multiplicacionFragment"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="MultiplicacionFragment" />
+    <item
+        android:id="@+id/divisionFragment"
+        android:icon="?attr/actionModeCutDrawable"
+        android:title="divisionFragment" />
+    <item
+        android:id="@+id/potenciaNFragment"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="PotenciaNFragment" />
+    <item
+        android:id="@+id/factorialFragment"
+        android:icon="@android:drawable/ic_input_delete"
+        android:title="FactorialFragment" />
+</menu>
